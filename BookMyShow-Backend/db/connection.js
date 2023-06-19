@@ -1,9 +1,9 @@
 const { MongoClient } = require("mongodb");
 //let mongoose = require("mongoose");
-//require("dotenv").config();
+require("dotenv").config();
 
 const mongoose=require("mongoose");
-const dbUrl ="mongodb+srv://hemant:hemant@cluster0.pdk4bmf.mongodb.net/?retryWrites=true&w=majority"
+const dbUrl = process.env.MONGODB_URL
 const connectionParams ={
   useNewUrlParser: true, 
   useUnifiedTopology: true 
