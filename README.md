@@ -9,15 +9,15 @@ The movie booked by the user will be stored in database and is retrived and show
 
 #### Overall UI of the app.
 
-![App Screenshot](https://snipboard.io/g71eba.jpg)
+![App Screenshot](https://snipboard.io/qjIr2l.jpg)
 
 #### Getting confirmations from server.
 
-![App Screenshot](https://snipboard.io/hrczwF.jpg)
+![App Screenshot](https://snipboard.io/uAr2ea.jpg)
 
 #### Information about previous booking details.
 
-![App screenshot](https://snipboard.io/E76G2B.jpg)
+![App screenshot](https://snipboard.io/NT461E.jpg)
 
 ## Technologies that are used.
 
