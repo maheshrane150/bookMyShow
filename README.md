@@ -60,7 +60,7 @@ By clicking on above links , you can see the project
 3. select timeslot .
 4. select any seat type and and number of seats would you like to booked.
 5. click on Book Now button. If you want to change any selected field, then do changes before booking it.
- After click on Book Now button you got succesfull booking message and ypur last booking details display on the screen under last booking details heading.
+ After click on Book Now button you got succesfull booking message and your last booking details display on the screen under last booking details heading.
  
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
