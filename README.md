@@ -4,7 +4,7 @@ This is a demo of real bookmyshow, where the user can book a movie with specifie
 
 The movie booked by the user will be stored in database and is retrived and shown to the user.
 
-## Link to website -> [BookMyShow](https://bookmy-show.netlify.app/)
+## Link to website -> [BookMyShow](https://my-show-book.netlify.app/)
 
 
 #### Overall UI of the app.
