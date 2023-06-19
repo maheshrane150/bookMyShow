@@ -13,7 +13,7 @@ The movie booked by the user will be stored in database and is retrived and show
 
 #### Getting confirmations from server.
 
-![App Screenshot](https://snipboard.io/uAr2ea.jpg)
+![App Screenshot](https://snipboard.io/vPiK5G.jpg)
 
 #### Information about previous booking details.
 
