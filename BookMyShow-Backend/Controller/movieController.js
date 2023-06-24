@@ -1,11 +1,16 @@
+//This my MovieController Section --------------------------------->
 const BookingModel = require("../Schema/bookMovieSchema")
 
+//This is my StoreBooking Request and Result all section more and both are ----------->
 const storeBooking = async (req, res) => {
+        //then use are try and catch fuction are used --------->
     try {
         const { movie, slot, seats } = req.body;
 
-        const myData = new BookingModel({ movie, slot, seats });
-        const data = await myData.save();
+        const myData = new BookingModel({ movie, slot, seats }); //Booking Movie and Booking , Seats
+        const data = await myData.save();// and then Movie Save 
+
+        //then return section Status are 200 then Booking Are Successful Check any (software)-------->          
 
         return res.status(200).json({
             message:"Booking successful",
@@ -13,14 +18,14 @@ const storeBooking = async (req, res) => {
             data:data
         })
     } catch (error) {
-        console.log("error", error.message);
+        console.log("error", error.message); // not choose then show error message is somthing went wrong-->
         return res.status(500).json({
             message:"something went wrong!",
             status:500,
             data:{}
         })
     }
-}
+}// create the get Booking request and result
 
 const getBooking = async (req, res) => {
     try {
