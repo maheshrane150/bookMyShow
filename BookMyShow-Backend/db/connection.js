@@ -1,6 +1,7 @@
 //connect the MongoClient require mongodb -------------->
 const { MongoClient } = require("mongodb");
-
+// Connecting to database using connection string and speciying if there is any error or it was successfull
+  // mongoose
 
 const mongoose=require("mongoose");
 
